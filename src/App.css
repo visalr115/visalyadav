@@ -1,7 +1,12 @@
 .App-header {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
   background-color: #222;
-  height: 150px;
+  height: 70px;
   padding: 20px;
   color: white;
+}
+.App{
+  background: url("https://cdn.allwallpaper.in/wallpapers/1920x1280/1827/lights-bokeh-1920x1280-wallpaper.jpg") no-repeat 0 -400px;
+  height: 653px;
 }
 
