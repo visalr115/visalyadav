@@ -20,8 +20,8 @@ class App extends Component {
             <li>Contact</li>
           </ul>
         </div>
-        <div className="container">
-          </div>
+        <div className="container"/>
+        <img className="profile" src="/image/profile.JPG"/>
       </div>
     );
   }
