@@ -16,6 +16,13 @@ const Contacts = () => (
           </ul>
         </div>
         <div className="container"/>
+        <div className="content">
+        <h1>Thanks for Visiting!</h1>
+        <h2>I would love to hear more from you.</h2>
+        <h3>Want to know more about my projects? My work? Or want to provide me an opportunity of working with you?</h3>
+        <a href="mailto:visalr.115@gmail.com"><h2><i className="fa fa-envelope" />visalr.115@gmail.com</h2></a>
+        <h2><i className="fa fa-phone" />9738229056</h2>
+        </div>
         </div>
         );
         

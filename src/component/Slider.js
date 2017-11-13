@@ -5,6 +5,7 @@ const Slider = () => (
   <nav id="nav">
     <div className="sidenav">
       <div className="slideHeader">
+        <h1>Explore</h1>
         <a href="#!" className="closebtn">
           <i className="fa fa-times" />
         </a>

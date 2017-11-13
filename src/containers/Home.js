@@ -17,6 +17,9 @@ const Home = () => (
         </div>
         <div className="container"/>
         <img className="profile" alt="" src="/image/profile.JPG"/>
+        <div className="contentName">
+        <h1>Hi, I'm Visal!</h1>
+        </div>
       </div>
 );
 export default Home;
