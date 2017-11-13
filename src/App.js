@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.scss';
+import './App.css';
 
 class App extends Component {
   render() {
@@ -21,7 +21,7 @@ class App extends Component {
           </ul>
         </div>
         <div className="container"/>
-        <img className="profile" src="/image/profile.JPG"/>
+        <img className="profile" alt="" src="/image/profile.JPG"/>
       </div>
     );
   }
