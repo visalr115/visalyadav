@@ -16,6 +16,25 @@ const Skills = () => (
           </ul>
         </div>
         <div className="container"/>
+          <div className="deco">
+            <div className="shead" />
+              <h1 className="text">My Skills</h1>
+                <h3>LANGUAGES</h3>
+                <hr />
+                <p>JavaScript, HTML5, CSS3, SASS, C, SQL, JAVA</p>
+                <h3>FRAMEWORKS, LIBRARIES AND OTHER TECHNOLOGIES</h3>
+                <hr />
+                <p>Node.js, React.js</p>
+                <h3>DATABASES</h3>
+                <hr />
+                <p>My SQL, MongoDB, Express</p>
+                <h3>VERSION CONTROL</h3>
+                <hr />
+                <p>Git</p>
+                <h3>PLATFORMS</h3>
+                <hr />
+                <p>Windows, Linux (Ubuntu)</p>
+             </div>
       </div>
 );
 export default Skills;

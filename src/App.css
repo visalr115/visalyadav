@@ -57,6 +57,26 @@
   font-size: 20px;
   color: white;
 }
+.list li:hover{ 
+  text-shadow: 0 0 10px #fff,
+  0 0 20px #fff,
+  0 0 30px #fff,
+  0 0 40px #ff00de,
+  0 0 70px #ff00de,
+  0 0 80px #ff00de,
+  0 0 100px #ff00de,
+  0 0 150px #ff00de;
+}
+.content i:hover{
+  text-shadow: 0 0 10px #fff,
+  0 0 20px #fff,
+  0 0 30px #fff,
+  0 0 40px #ff00de,
+  0 0 70px #ff00de,
+  0 0 80px #ff00de,
+  0 0 100px #ff00de,
+  0 0 150px #ff00de;
+}
 .link{
   text-decoration: none;
   color: white;
@@ -130,6 +150,9 @@
   margin-top: 0.5%;
   font-size: 25px;
   color: white;
+}
+.closebtn:hover{
+  color: #e8491d;
 }
 .slideHeader {
   width: 100%;
@@ -253,6 +276,47 @@
   color: grey;
   margin-left: 10px;
   padding: 4px;
+  
+}
+
+
+.shead{
+  border-radius: 2px;
+  height: 100px;
+  width: 100%;
+  background-image: url("/image/tech.jpg");
+  background-position-y: 75%;
+  background-size: 100%; 
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+.deco{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -510px;
+  height: 500px;
+  background-color: grey;
+  position:relative;
+}
+.text{
+  color: white;
+  margin-top: -40px;
+  position: relative;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  margin-left: 8px;
+}
+.deco h3{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0px 0px 0px 8px;
+}
+.deco p{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0px 0px 0px 8px;
+  margin-bottom: 12px;
 }

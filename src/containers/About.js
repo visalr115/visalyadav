@@ -16,6 +16,15 @@ const About = () => (
           </ul>
         </div>
         <div className="container"/>
+        <div className="deco">
+          <div className="ahead" />
+          <h1 className="text">About Me</h1>
+          <h2>Hi !</h2>
+          <p>
+        My name is Visal Yadav and I've completed my B-Tech degree in Electronics & Communication Engineering
+        from Calcutta Institute of Technology, Howrah.
+      </p>
+      </div>
         </div>
         );
 
