@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
 import Header from '../component/Header';
 import '../App.css';
 
@@ -19,6 +20,7 @@ const Skills = () => (
           <div className="deco">
             <div className="shead" />
               <h1 className="text">My Skills</h1>
+              <Fade left>
                 <h3>LANGUAGES</h3>
                 <hr />
                 <p>JavaScript, HTML5, CSS3, SASS, C, SQL, JAVA</p>
@@ -34,6 +36,7 @@ const Skills = () => (
                 <h3>PLATFORMS</h3>
                 <hr />
                 <p>Windows, Linux (Ubuntu)</p>
+                </Fade>
              </div>
       </div>
 );

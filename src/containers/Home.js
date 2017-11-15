@@ -1,5 +1,6 @@
 import React from 'react';
 import Typist from 'react-typist';
+import Fade from 'react-reveal/Fade'
 import { Link } from 'react-router-dom';
 import Header from '../component/Header';
 import '../../node_modules/react-typist/dist/Typist.css';
@@ -20,7 +21,7 @@ const Home = () => (
         <div className="container"/>
         <img className="profile" alt="" src="/image/profile.JPG"/>
         <div className="contentName">
-        <h1>Bonjour, I'm Visal!</h1>
+        <Fade top><h1>Bonjour, I'm Visal!</h1></Fade>
         <Typist>
         <h2 className="hi2">Developer, Quick Learner and Innovation is my Passion.</h2>
         </Typist>

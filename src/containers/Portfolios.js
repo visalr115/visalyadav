@@ -1,4 +1,5 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade'
 import { Link } from 'react-router-dom';
 import Header from '../component/Header';
 import '../App.css';
@@ -16,6 +17,7 @@ const Portfolios = () => (
           </ul>
         </div>
         <div className="container"/>
+        <Fade top>
         <div className="port1">
       <div className="port1head" />
       <h2 className="title">Leopetra website</h2>
@@ -28,6 +30,8 @@ const Portfolios = () => (
       <hr />
       <a className="weblink" href="https://leopetra.com/">VISIT LEOPETRA WEBSITE</a>
     </div>
+    </Fade>
+    <Fade left>
     <div className="port2">
       <div className="port2head" />
       <h2 className="title">WeberHead Design</h2>
@@ -40,6 +44,8 @@ const Portfolios = () => (
       <hr />
       <a className="weblink" href="https://weberhead.herokuapp.com/">VISIT THE WEBSITE</a>
     </div>
+    </Fade>
       </div>
+      
 );
 export default Portfolios;
