@@ -12,7 +12,7 @@ const Slider = () => (
         </a>
       </div>
       <div className="links">
-        <a href="https://www.instagram.com/visalr115/"><h3><i className="fa fa-file sidelink"/>My Resume</h3></a>
+        <a href="https://drive.google.com/file/d/1LEzU252YhbzRxlLaT9ArtZjaonjRihTb/view?usp=sharing"><h3><i className="fa fa-file sidelink"/>My Resume</h3></a>
         <a href="https://angel.co/visal-yadav?public_profile=1"><h3><i className="fa fa-angellist sidelink"/>AngelList</h3> </a>
         <a href="https://www.linkedin.com/in/visalyadav/"><h3><i className="fa fa-linkedin sidelink" />Linkedin</h3></a>
         <a href="https://github.com/visalr115"><h3><i className="fa fa-github sidelink" />GitHub</h3></a>
