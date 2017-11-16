@@ -39,7 +39,7 @@ const About = () => (
             I also play Cricket.
           </p>
       <hr />
-      <a href="https://drive.google.com/file/d/0BwaHyFnWjuFRY0pTUjFzRmt6TTg/view?usp=sharing"><h3>CLICK HERE TO VIEW MY RESUME</h3></a>
+      <a href="https://drive.google.com/file/d/1Aj9vC8-FvDt4dibDYGbyfZAZIz2ZPRj0/view?usp=sharing"><h3>CLICK HERE TO VIEW MY RESUME</h3></a>
       </Fade>
       </div>
         </div>
