@@ -1,7 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:700,400,500,300,200,100);
 body{
   background-image: url("/image/back.jpg");
-  background-size: 100% 100%;
+  background-size: 100%;
+  background-repeat: repeat;
   background-blend-mode: screen;
 }
 
@@ -10,9 +11,6 @@ body{
   height: 40px;
   padding: 20px;
   color: white;
-}
-.App{
-  height: 653px;
 }
 .myname{
   font-family: 'Roboto', sans-serif;
@@ -123,13 +121,14 @@ body{
   text-decoration: none;
 }
 .container{
-  height: 541px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .content{
   text-align: center;
   position: relative;
   color: white;
-  margin-top: -500px;
 }
 .content h1{
   font-weight: 300;
@@ -161,22 +160,24 @@ body{
   text-align: center;
   font-size: 30px;
   color: white;
-  position: relative;
-  margin-top: -220px;
 }
 .contentName h1{
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
 }
 .profile{
-    height: 300px;
-    width: 300px;
-    border-radius: 100%;
-    border: 2px solid white;
-    padding: 5px;
-    margin-top: -500px;
-    margin-left: 480px;
-    position: absolute; 
+  margin-top: 5px;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  border: 2px solid white;
+  padding: 5px; 
+}
+.me{
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .openbtn{
   margin-top: 0.5%;
@@ -357,8 +358,7 @@ body{
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -510px;
-  height: 500px;
+  margin-top: 15px;
   background-color: grey;
   position:relative;
 }
@@ -409,17 +409,16 @@ body{
 .port1{
   border-radius: 2px;
   width: 70%;
-  height: 250px;
+  margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
   background-color: grey;
   color: white;
-  margin-top: -530px;
   position: relative;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
 .port1head{
-  height: 40%;
+  height: 110px;
   width: 100%;
   border-bottom: 2px solid white;
   background-image: url("/image/leo.png");
@@ -456,20 +455,24 @@ body{
   0 0 100px #ff00de,
   0 0 150px #ff00de;
 }
+.fade1{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .port2{
+  margin-top: 15px;
   border-radius: 2px;
   width: 70%;
-  height: 250px;
   margin-left: auto;
   margin-right: auto;
   background-color: grey;
   color: white;
-  margin-top: 15px;
   position: relative;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
 .port2head{
-  height: 40%;
+  height: 110px;
   width: 100%;
   border-bottom: 2px solid white;
   background-image: url("/image/web.png");

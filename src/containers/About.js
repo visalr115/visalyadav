@@ -9,14 +9,14 @@ const About = () => (
         <Header />
         <div className="navbar">
           <ul className="list">
-            <li><Link className="link" to="/">Home</Link></li>
+          <Link className="link" to="/"><li>Home</li></Link>
             <li><b>About</b></li>
-            <li><Link className="link" to="/skills">Skills</Link></li>
-            <li><Link className="link" to="/portfolio">Portfolio</Link></li>
-            <li><Link className="link" to="/contact">Contact</Link></li>
+            <Link className="link" to="/skills"><li>Skills</li></Link>
+            <Link className="link" to="/portfolio"><li>Portfolio</li></Link>
+            <Link className="link" to="/contact"><li>Contact</li></Link>
           </ul>
         </div>
-        <div className="container"/>
+        <div className="container2">
         <div className="deco">
           <div className="ahead" />
           <h1 className="text">About Me</h1>
@@ -41,6 +41,7 @@ const About = () => (
       <hr />
       <a href="https://drive.google.com/file/d/1Aj9vC8-FvDt4dibDYGbyfZAZIz2ZPRj0/view?usp=sharing"><h3>CLICK HERE TO VIEW MY RESUME</h3></a>
       </Fade>
+      </div>
       </div>
         </div>
         );

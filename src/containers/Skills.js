@@ -9,14 +9,14 @@ const Skills = () => (
         <Header />
         <div className="navbar">
           <ul className="list">
-          <li><Link className="link" to="/">Home</Link></li>
-          <li><Link className="link" to="/about">About</Link></li>
+          <Link className="link" to="/"><li>Home</li></Link>
+          <Link className="link" to="/about"><li>About</li></Link>
           <li><b>Skills</b></li>
-          <li><Link className="link" to="/portfolio">Portfolio</Link></li>
-          <li><Link className="link" to="/contact">Contact</Link></li>
+          <Link className="link" to="/portfolio"><li>Portfolio</li></Link>
+          <Link className="link" to="/contact"><li>Contact</li></Link>
           </ul>
         </div>
-        <div className="container"/>
+        <div className="container2">
           <div className="deco">
             <div className="shead" />
               <h1 className="text">My Skills</h1>
@@ -37,6 +37,7 @@ const Skills = () => (
                 <hr />
                 <p>Windows, Linux (Ubuntu)</p>
                 </Fade>
+             </div>
              </div>
       </div>
 );

@@ -9,14 +9,14 @@ const Portfolios = () => (
         <Header />
         <div className="navbar">
           <ul className="list">
-          <li><Link className="link" to="/">Home</Link></li>
-          <li><Link className="link" to="/about">About</Link></li>
-          <li><Link className="link" to="/skills">Skills</Link></li>
+          <Link className="link" to="/"><li>Home</li></Link>
+          <Link className="link" to="/about"><li>About</li></Link>
+          <Link className="link" to="/skills"><li>Skills</li></Link>
           <li><b>Portfolio</b></li>
-          <li><Link className="link" to="/contact">Contact</Link></li>
+          <Link className="link" to="/contact"><li>Contact</li></Link>
           </ul>
         </div>
-        <div className="container"/>
+        <div className="container2">
         <Fade top>
         <div className="port1">
       <div className="port1head" />
@@ -31,7 +31,7 @@ const Portfolios = () => (
       <a className="weblink" href="https://leopetra.com/">VISIT LEOPETRA WEBSITE</a>
     </div>
     </Fade>
-    <Fade left>
+    <Fade left className="fade1">
     <div className="port2">
       <div className="port2head" />
       <h2 className="title">WeberHead Design</h2>
@@ -45,6 +45,7 @@ const Portfolios = () => (
       <a className="weblink" href="https://weberhead.herokuapp.com/">VISIT THE WEBSITE</a>
     </div>
     </Fade>
+    </div>
       </div>
       
 );

@@ -9,14 +9,14 @@ const Contacts = () => (
         <Header />
         <div className="navbar">
           <ul className="list">
-          <li><Link className="link" to="/">Home</Link></li>
-          <li><Link className="link" to="/about">About</Link></li>
-          <li><Link className="link" to="/skills">Skills</Link></li>
-          <li><Link className="link" to="/portfolio">Portfolio</Link></li>
+          <Link className="link" to="/"><li>Home</li></Link>
+          <Link className="link" to="/about"><li>About</li></Link>
+          <Link className="link" to="/skills"><li>Skills</li></Link>
+          <Link className="link" to="/portfolio"><li>Portfolio</li></Link>
           <li><b>Contact</b></li>
           </ul>
         </div>
-        <div className="container"/>
+        <div className="container2">
         <div className="content">
           <Fade left>
         <h1>Thanks for Visiting!</h1></Fade>
@@ -30,6 +30,7 @@ const Contacts = () => (
         <a href="https://plus.google.com/113883774652218971747"><i className="fa fa-google-plus con5"/></a>
         <a href="https://www.instagram.com/visalr115/"><i className="fa fa-instagram con5"/></a>
         </Fade>
+        </div>
         </div>
         </div>
         );
